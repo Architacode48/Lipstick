@@ -1,0 +1,15 @@
+.heading{
+    width:100%;
+    font-family: 'Redressed', cursive;
+    color:purple;
+    font-size: 50px;;
+}
+canvas{margin-top:80px;
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow: 1px 1px 1px 25px darkslategrey;}
+    to{box-shadow:1px 1px 1px 25px gainsboro;}
+}
